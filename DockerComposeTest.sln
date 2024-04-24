@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34814.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerComposeTest.Api", "DockerComposeTest.Api\DockerComposeTest.Api.csproj", "{1CDA0E77-E254-40B2-B69F-65BB9C6AFC92}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{967DD69A-B423-4FC3-A0AF-B4AB52AF9DC7}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		docker-compose.yml = docker-compose.yml
+		linux.env = linux.env
+		README.md = README.md
+		windows.env = windows.env
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DockerComposeTest.Api2", "DockerComposeTest.Api2\DockerComposeTest.Api2.csproj", "{406035C4-ECEC-4872-B33F-B69517B8DFB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1CDA0E77-E254-40B2-B69F-65BB9C6AFC92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CDA0E77-E254-40B2-B69F-65BB9C6AFC92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CDA0E77-E254-40B2-B69F-65BB9C6AFC92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CDA0E77-E254-40B2-B69F-65BB9C6AFC92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406035C4-ECEC-4872-B33F-B69517B8DFB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406035C4-ECEC-4872-B33F-B69517B8DFB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406035C4-ECEC-4872-B33F-B69517B8DFB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406035C4-ECEC-4872-B33F-B69517B8DFB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4EA802B-5BDC-4B71-978B-E79DE57D964E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+@DockerComposeTest.Api_HostAddress = http://localhost:5093
+
+GET {{DockerComposeTest.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
