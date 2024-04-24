@@ -26,7 +26,10 @@ dotnet dev-certs https -ep $HOME\.aspnet\https\aspnetapp.pfx -p password
 dotnet dev-certs https --trust
 -ep - path to existing certificate file (.pfx) that you want to use for HTTPS development (existing PFX file)
 ```
-##### IMPORTANT - COPY CERTIFICATE TO RASPBERRY PI!!! (use scp) -> to: $HOME/.aspnet/https
+##### IMPORTANT - COPY CERTIFICATE TO RASPBERRY PI!!! (use scp) -> to: $HOME/.aspnet/https (change <raspberrypi_ip> to correct Raspberry Pi ip)
+```
+scp C:\Users\bartl\.aspnet\https\aspnetapp.pfx malinka@<raspberrypi_ip>:/home/malinka/https/
+```
 ### Build and up all containers (change environment variables depending on system You want to use):
 ```
 docker-compose --env-file linux.env up -d --build
