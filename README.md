@@ -29,6 +29,7 @@ dotnet dev-certs https --trust
 ##### IMPORTANT - COPY CERTIFICATE TO RASPBERRY PI!!! (use scp) -> to: $HOME/.aspnet/https (change <raspberrypi_ip> to correct Raspberry Pi ip)
 ```
 scp C:\Users\bartl\.aspnet\https\aspnetapp.pfx malinka@<raspberrypi_ip>:/home/malinka/Desktop
+ssh malinka@<raspberrypi_ip>
 sudo mv /home/malinka/Desktop/aspnetapp.pfx /home/malinka/.aspnet/https
 ```
 ### Build and up all containers (change environment variables depending on system You want to use):
